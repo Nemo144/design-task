@@ -1,9 +1,14 @@
 import React from "react";
+import { Login } from "./components/Login";
+import { Signup } from "./components/Signup";
 
 const App = () => {
   return (
-    <div>
-      <h1>App</h1>
+    <div className="bg-black w-full h-full">
+      <div>
+        <Login />
+        {/* <Signup /> */}
+      </div>
     </div>
   );
 };
