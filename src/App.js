@@ -1,7 +1,6 @@
 import React from "react";
 import { Login } from "./components/Login";
-import { Signup } from "./components/Signup";
-import MemopsLogo from "./components/logo";
+import { Register } from "./components/Register";
 
 const App = () => {
   return (
@@ -24,7 +23,7 @@ const App = () => {
       </div>
       <div className="">
         <Login />
-        {/* <Signup /> */}
+        <Register />
       </div>
     </div>
   );
