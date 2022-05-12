@@ -1,11 +1,12 @@
 import React from "react";
 import { Login } from "./components/Login";
 import { Register } from "./components/Register";
+import { Home } from "./components/Home";
 
 const App = () => {
   return (
     <div className="relative flex flex-col justify-center my-auto items-center bg-zinc-900 w-full h-full">
-      <div className="flex justify-center items-center mt-64 mb-11 cursor-pointer">
+      {/* <div className="flex flex-col justify-center items-center mt-10 mb-11 cursor-pointer">
         <svg
           width="34"
           height="35"
@@ -20,10 +21,14 @@ const App = () => {
             fill="#C5C7CA"
           />
         </svg>
-      </div>
-      <div className="">
-        <Login />
-        <Register />
+        <div className="pt-10">
+          <Login />
+        </div>
+      </div> */}
+      <div>
+        <Home />
+
+        {/* <Register /> */}
       </div>
     </div>
   );
