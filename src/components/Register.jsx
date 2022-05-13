@@ -1,22 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import { AiOutlineEye } from "react-icons/ai";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 export const Register = () => {
-  // const [toggle, setToggle] = useState(false);
-
   return (
-    <div className="flex flex-wrap rounded mx-auto  mb-10 pb-10 w-96 bg-zinc-800">
+    <div className="flex flex-wrap rounded mb-10 pb-10 w-96   bg-zinc-800">
       <div className="sm:mx-auto sm:w-full sm:max-w-md w-full pb-3 mt-5">
         <div>
           <AiOutlineCloseCircle
             size={27}
-            // onClick={() => setToggle(true)}
             className="mx-80 cursor-pointer mr-2"
           />
         </div>
         <h1 className=" text-sm font-light text-center text-gray-600  ">
-          Sign up
+          SIGN UP
         </h1>
         <div className="flex flex-wrap justify-center items-center text-white">
           <h2>Create an account to continue</h2>
