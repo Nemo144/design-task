@@ -2,6 +2,7 @@ import React from "react";
 import { Login } from "./components/Login";
 import { Register } from "./components/Register";
 import { Home } from "./components/Home";
+import { HomeRegisterModal } from "./container/HomeRegisterModal";
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
         </div>
       </div> */}
       <div>
-        <Home />
+        <HomeRegisterModal />
+        {/* <Home /> */}
 
         {/* <Register /> */}
       </div>

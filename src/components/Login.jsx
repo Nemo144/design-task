@@ -3,7 +3,7 @@ import { AiOutlineEye } from "react-icons/ai";
 
 export const Login = () => {
   return (
-    <div className="flex flex-wrap rounded mx-auto border-zinc-200  mb-10 pb-10 w-96 bg-zinc-800">
+    <div className="flex flex-wrap rounded mx-auto border-zinc-200  mb-10 pb-10 w-96 ">
       <div className="sm:mx-auto sm:w-full sm:max-w-md w-full mt-5">
         <h1 className=" text-sm font-light text-center text-gray-600  ">
           WELCOME BACK
